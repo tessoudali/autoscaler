@@ -1,6 +1,6 @@
 
 
-FROM golang:1.13 AS build_base
+FROM golang:bookworm AS build_base
 
 RUN apt-get update && apt-get install -y git pkg-config
 
